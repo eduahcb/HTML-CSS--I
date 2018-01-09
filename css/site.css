@@ -15,6 +15,7 @@ main h1{
     color: #fff;
     text-align: center;
     background-color: #851944;
+    padding: 25px;
 }
 
 p {
@@ -38,4 +39,8 @@ footer {
 nav a{
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside, footer, blockquote {
+    padding: 20px;
 }
