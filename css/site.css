@@ -44,3 +44,8 @@ nav a{
 aside, footer, blockquote {
     padding: 20px;
 }
+
+main div{
+    max-width: 720px;
+    margin: auto;
+}
