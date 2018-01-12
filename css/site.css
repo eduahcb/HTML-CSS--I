@@ -13,7 +13,7 @@ h1, h2{
     font-family: "Open Sans Condensed","Arial", sans-serif;
 }
 
-main h1{
+.titulo-principal{
     color: #fff;
     text-align: center;
     background-color: #851944;
@@ -27,7 +27,7 @@ p {
     margin: 20px 0;
 }
 
-blockquote {
+.citacoes {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
     width: 250px; 
@@ -35,12 +35,12 @@ blockquote {
     margin: 20px 40px;
 }
 
-aside{
+.menu-navegacao{
     background-color: #3C1D3D;
     color: #F2FFFC;
 }
 
-footer {
+.rodape {
     background-color: #000;
     color: #F2FFFC;
 }
@@ -58,10 +58,19 @@ aside, footer, blockquote {
     padding: 20px;
 }
 
-main div{
+.container{
     max-width: 720px;
     margin: auto;
     padding: 30px 0;
+}
+
+.leia-mais{
+    font-size: 25px;
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    background-color: #E6E7E8;;
+    text-align: center;
 }
 
 aside {
@@ -85,6 +94,12 @@ h2{
     font-size: 30px;
 }
 
-aside li {
+.redes-sociais li {
     display: inline-block;
+}
+
+.artigos {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
 }
