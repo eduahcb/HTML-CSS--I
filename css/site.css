@@ -37,13 +37,17 @@ p {
 }
 
 .menu-navegacao{
+    padding: 20px;
     background-color: #3C1D3D;
     color: #F2FFFC;
+    clear: right;
+    box-sizing: border-box;
 }
 
 .rodape {
     background-color: #000;
     color: #F2FFFC;
+    clear: both;
 }
 
 nav a{
@@ -56,7 +60,7 @@ aside a {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-aside, footer, blockquote {
+footer, blockquote {
     padding: 20px;
 }
 
@@ -123,4 +127,34 @@ h2{
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
     padding-bottom: 30px;
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras{
+    float: left;
+}
+
+.sub-titulo{
+    clear: both;
+}
+
+.menu-navegacao, .minha-foto{
+    float: right;
+    width: 15%;
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+    box-sizing: border-box;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+cite{
+    float: right;
+    font-style: italic;
 }
